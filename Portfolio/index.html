@@ -1,0 +1,288 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harshit Prasad | Backend & AI/ML Engineer</title>
+    <meta name="description" content="Portfolio of Harshit Prasad, a B.Tech IT student building backend systems, data workflows, and applied AI/ML projects.">
+    <meta name="keywords" content="Harshit Prasad, Portfolio, Backend Developer, AI Engineer, Python, FastAPI, Machine Learning">
+    <meta name="author" content="Harshit Prasad">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Harshit Prasad | Portfolio">
+    <meta property="og:description" content="Backend, data, and AI/ML portfolio of Harshit Prasad.">
+    <meta property="og:image" content="assets/harshit-portrait-transparent.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo" aria-label="Harshit Prasad home">HP</a>
+            <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle Menu">
+                <i data-lucide="menu"></i>
+            </button>
+            <nav class="nav-links" id="nav-links">
+                <a href="#about" class="nav-link">about</a>
+                <a href="#projects" class="nav-link">work</a>
+                <a href="#skills" class="nav-link">stack</a>
+                <a href="assets/Harshit-Prasad-Resume.pdf" class="nav-link" download="Harshit-Prasad-Resume.pdf">cv</a>
+                <a href="#contact" class="nav-link nav-cta">connect</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-marquee" aria-hidden="true">
+                <span>AI/ML Engineer</span>
+                <span>AI/ML Builder</span>
+                <span>Data Systems</span>
+            </div>
+
+            <div class="hero-grid">
+                <div class="hero-copy">
+                    <p class="eyebrow fade-in">Available for internships</p>
+                    <h1 class="hero-title fade-in">
+                        Software should feel natural.
+                    </h1>
+                    <p class="hero-kicker fade-in">
+                        I am Harshit Prasad, a backend and AI/ML engineer building database-backed products, model workflows, and practical systems that make complex ideas easier to use.
+                    </p>
+                    <div class="hero-meta fade-in">
+                        <span>Gwalior, India</span>
+                        <span>GMT +5:30</span>
+                        <span id="typed-text" class="typed-text"></span><span class="cursor">|</span>
+                    </div>
+                </div>
+
+                <div class="hero-collage fade-in" aria-label="Portfolio visual collage">
+                    <figure class="collage-card collage-main">
+                        <img src="assets/harshit-portrait-transparent.png" alt="Portrait of Harshit Prasad" class="portrait-cutout">
+                    </figure>
+                    <div class="collage-card collage-note">
+                        <span class="note-number">03</span>
+                        <span>featured projects</span>
+                    </div>
+                    <div class="collage-card collage-terminal">
+                        <span>harshit@portfolio</span>
+                        <strong>build clarity</strong>
+                    </div>
+                    <div class="collage-card collage-location">
+                        <i data-lucide="map-pin"></i>
+                        <span>Gwalior</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-actions fade-in">
+                <a href="#projects" class="btn btn-primary">View work <i data-lucide="arrow-up-right"></i></a>
+                <a href="assets/Harshit-Prasad-Resume.pdf" class="btn btn-secondary" download="Harshit-Prasad-Resume.pdf">Download CV <i data-lucide="download"></i></a>
+                <a href="mailto:hstpsd@gmail.com" class="btn btn-secondary">Email me <i data-lucide="mail"></i></a>
+            </div>
+        </section>
+
+        <section id="about" class="section about-section reveal-on-scroll">
+            <div class="section-label">about</div>
+            <div class="about-layout">
+                <h2 class="section-title">I turn technical depth into usable products.</h2>
+                <div class="about-copy">
+                    <p class="lead-text">
+                        I am a pre-final year B.Tech IT student and S.T.E.M Engineer Intern with hands-on work across Python backends, database schemas, data analysis, and applied AI workflows.
+                    </p>
+                    <p>
+                        My favorite work sits where engineering discipline meets real user value: clean APIs, reliable data flows, practical automation, and ML experiments that can be tested, explained, and improved.
+                    </p>
+                </div>
+            </div>
+
+            <div class="belief-grid">
+                <article class="belief-card">
+                    <span>01</span>
+                    <h3>Tirelessly pursue clarity.</h3>
+                    <p>Readable systems, clear APIs, and measured decisions make software easier to trust.</p>
+                </article>
+                <article class="belief-card">
+                    <span>02</span>
+                    <h3>Build for the moment of use.</h3>
+                    <p>A feature is only finished when the person using it can move faster with less friction.</p>
+                </article>
+                <article class="belief-card">
+                    <span>03</span>
+                    <h3>Make intelligence practical.</h3>
+                    <p>AI should be tested, observable, and attached to a useful workflow, not just a demo.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="projects" class="section projects-section reveal-on-scroll">
+            <div class="section-label">work</div>
+            <h2 class="section-title">Selected systems and experiments.</h2>
+            <div class="projects-grid">
+                <article class="project-card project-featured">
+                    <div class="project-index">01</div>
+                    <div class="project-body">
+                        <h3>RetailIQ</h3>
+                        <p>A sales analytics and inventory forecasting platform for small retailers with sales velocity calculations, REST APIs, and stock-risk assessments.</p>
+                        <div class="project-tech">
+                            <span>FastAPI</span>
+                            <span>SQLAlchemy</span>
+                            <span>SQLite</span>
+                            <span>Pandas</span>
+                            <span>Streamlit</span>
+                        </div>
+                    </div>
+                    <a href="https://retailiq-harshit.netlify.app/" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Open RetailIQ">
+                        <i data-lucide="arrow-up-right"></i>
+                    </a>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-index">02</div>
+                    <div class="project-body">
+                        <h3>City Pulse</h3>
+                        <p>Real-time city tracking and map-based reporting system built for Sunhacks Hackathon 2025, where the team secured 5th position.</p>
+                        <div class="project-tech">
+                            <span>Maps</span>
+                            <span>Real-time data</span>
+                            <span>API integration</span>
+                        </div>
+                    </div>
+                    <a href="https://github.com/SyntaxSociety6/City-Pulse" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Open City Pulse repository">
+                        <i data-lucide="github"></i>
+                    </a>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-index">03</div>
+                    <div class="project-body">
+                        <h3>Deep Learning From Scratch</h3>
+                        <p>Custom neural-network components including linear, activation, loss, convolution, pooling, resampling, forward passes, and backward passes.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>NumPy</span>
+                            <span>CNNs</span>
+                            <span>Backpropagation</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="skills" class="section skills-section reveal-on-scroll">
+            <div class="section-label">stack</div>
+            <div class="skills-layout">
+                <h2 class="section-title">Tools I use to shape ideas into systems.</h2>
+                <div class="skills-container">
+                    <article class="skills-card">
+                        <i data-lucide="terminal" class="skill-category-icon"></i>
+                        <h3>Languages</h3>
+                        <ul class="skills-list">
+                            <li><div class="skill-name-percent"><span>Python</span><span>Advanced</span></div><div class="skill-bar"><div class="skill-progress" style="width: 90%;"></div></div></li>
+                            <li><div class="skill-name-percent"><span>SQL</span><span>Intermediate</span></div><div class="skill-bar"><div class="skill-progress" style="width: 80%;"></div></div></li>
+                            <li><div class="skill-name-percent"><span>HTML / CSS</span><span>Intermediate</span></div><div class="skill-bar"><div class="skill-progress" style="width: 75%;"></div></div></li>
+                        </ul>
+                    </article>
+
+                    <article class="skills-card">
+                        <i data-lucide="database" class="skill-category-icon"></i>
+                        <h3>Backend</h3>
+                        <div class="tools-tags">
+                            <span>FastAPI</span>
+                            <span>SQLAlchemy</span>
+                            <span>SQLite</span>
+                            <span>PostgreSQL-ready design</span>
+                            <span>REST APIs</span>
+                            <span>Pytest</span>
+                        </div>
+                    </article>
+
+                    <article class="skills-card">
+                        <i data-lucide="brain-circuit" class="skill-category-icon"></i>
+                        <h3>Data and AI</h3>
+                        <div class="tools-tags">
+                            <span>Pandas</span>
+                            <span>NumPy</span>
+                            <span>CNNs</span>
+                            <span>LLM fine-tuning</span>
+                            <span>Model evaluation</span>
+                            <span>Backpropagation</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section experience-section reveal-on-scroll">
+            <div class="section-label">experience</div>
+            <article class="experience-card">
+                <div>
+                    <span class="exp-duration">Dec 2025 - Jan 2026</span>
+                    <h2>S.T.E.M Engineer Intern</h2>
+                    <p class="company-name">Frostrek LLP, Gurgaon</p>
+                </div>
+                <ul class="exp-highlights">
+                    <li>Contributed to training and fine-tuning workflows for Large Language Models, focusing on model performance metrics, testing accuracy, and parameter improvement.</li>
+                    <li>Collaborated on STEM and AI-focused technical tasks while strengthening practical Python development, model behavior analysis, and applied ML pipelines.</li>
+                </ul>
+            </article>
+        </section>
+
+        <section id="terminal" class="section terminal-section reveal-on-scroll">
+            <div class="section-label">console</div>
+            <h2 class="section-title">A tiny shell for the curious.</h2>
+            <p class="section-subtitle">Try commands like help, skills, projects, cv, retailiq, citypulse, github, linkedin, or contact.</p>
+            <div class="terminal-container">
+                <div class="terminal-header">
+                    <div class="terminal-buttons">
+                        <span class="t-dot t-red"></span>
+                        <span class="t-dot t-yellow"></span>
+                        <span class="t-dot t-green"></span>
+                    </div>
+                    <span class="terminal-title">harshit@portfolio: ~</span>
+                </div>
+                <div class="terminal-body" id="terminal-body">
+                    <div class="terminal-line">Welcome to Harshit Prasad's interactive shell.</div>
+                    <div class="terminal-line">Type <span class="t-keyword">help</span> for a list of available commands.</div>
+                    <br>
+                    <div class="terminal-output-container" id="terminal-outputs"></div>
+                    <div class="terminal-input-line">
+                        <span class="terminal-prompt">harshit@portfolio:~$</span>
+                        <input type="text" id="terminal-input" autocomplete="off" spellcheck="false">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact-section reveal-on-scroll">
+            <div class="section-label">connect</div>
+            <div class="contact-panel">
+                <div>
+                    <h2>Let's build something useful.</h2>
+                    <p>I am currently looking for software engineering, backend, database, data analytics, or AI/ML internship roles.</p>
+                </div>
+                <div class="contact-actions">
+                    <a href="mailto:hstpsd@gmail.com" class="contact-link"><i data-lucide="mail"></i> hstpsd@gmail.com</a>
+                    <a href="tel:+917982059127" class="contact-link"><i data-lucide="phone"></i> +91 79820 59127</a>
+                    <a href="assets/Harshit-Prasad-Resume.pdf" class="contact-link" download="Harshit-Prasad-Resume.pdf"><i data-lucide="download"></i> Download CV</a>
+                    <a href="https://github.com/SyntaxSociety6" target="_blank" rel="noopener noreferrer" class="contact-link"><i data-lucide="github"></i> GitHub</a>
+                    <a href="https://www.linkedin.com/in/harshit-prasad-5569532a1/" target="_blank" rel="noopener noreferrer" class="contact-link"><i data-lucide="linkedin"></i> LinkedIn</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Harshit Prasad</p>
+        <a href="#hero">Back to top</a>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
+
+
+
